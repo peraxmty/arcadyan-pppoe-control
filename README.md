@@ -6,8 +6,13 @@ You can use it in conjunction with a cron job turn off internet access in my hom
 
 I'm using a Raspberry Pi 3b running Raspbian 10.4 & Python 2.7.16
 
-You need to install chromium-chromedriver and selenium:
+Prerequisites are chromium, chromium-chromedriver and selenium:
+ 
+ `apt install chromium-browser`
  
  `wget http://launchpadlibrarian.net/452362975/chromium-chromedriver_78.0.3904.108-0ubuntu0.16.04.1_armhf.deb`
+ 
  `dpkg -i chromium-chromedriver_78.0.3904.108-0ubuntu0.16.04.1_armhf.deb`
+ 
  `pip install selenium`
+ 
