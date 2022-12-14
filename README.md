@@ -2,7 +2,7 @@
 Disconnect &amp; connect the pppoe session in the Arcadyan VRV9506JAC23 modem as installed by TELMEX.
 It does it by editing the pppoe username and adding an 'x' at the end.
 
-You can use it in conjunction with a cron job turn off internet access in my home at night, as the built-in feature in the modem isn't reliable.
+You can use it in conjunction with a cron job turn off internet access at night, as the built-in feature in the modem isn't very reliable.
 
 I'm using a Raspberry Pi 3b running Raspbian 10.4 & Python 2.7.16
 
